@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "ms-python.vscode-pylance",
+    "charliermarsh.ruff",
+    "wayou.vscode-todo-highlight",
+    "rvest.vs-code-prettier-eslint",
+    "dbaeumer.vscode-eslint"
+  ]
+}

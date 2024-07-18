@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "backend"
+version = "0.2.0"
+description = "backend for takehome"
+authors = ["Vinay Mehta <email@vinaym.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.2"
+pandas-datareader = "^0.10.0"
+sqlalchemy = "^2.0.30"
+fastapi = "^0.111.0"
+uvicorn = "^0.30.1"
+setuptools = "^70.0.0"
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.25.0"
+matplotlib = "^3.9.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+# https://beta.ruff.rs/docs/rules/
+select = ["F", "E", "W", "Q", "I", "B", "COM", "PLC", "PD"]
+extend-exclude = ["**/__init__.py"]
